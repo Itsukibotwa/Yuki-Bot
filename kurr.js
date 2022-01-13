@@ -3961,7 +3961,7 @@ Silahkan Pilih Metode Pembayaran
 Di Bawah       
 
  `
-sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:store1,name:""}, [{buttonId:`gopay`,buttonText:{displayText:'GOPAY'},type:1},{buttonId:`dana`,buttonText:{displayText:'DANA'},type:1},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:store1,name:""}, [{buttonId:`gopay`,buttonText:{displayText:'GOPAY'},type:1},{buttonId:`dana`,buttonText:{displayText:'DANA`},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 
 break
         case 'dana':
