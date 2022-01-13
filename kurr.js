@@ -1480,6 +1480,21 @@ else if(menusimpel = true){
 fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
+❏»  USER INFO
+┃ ➤❖Status :  ${isOwner ? 'Owner' : 'User'}_
+┃ ➤❖Nama : ${pushname}_
+┃ ➤❖Bio User : ${stst}_
+┃ ➤❖Nomor : @${stod.split('@')[0]}_
+┗━━━━━━━━━━━━━━❏
+   
+   ╭◪ BOT INFO
+   ├❖ Name bot : ${NamaBot}
+   ├❍ Nomor bot : 0858690020467
+   ├❖ Owner bot : 𝖭𝖺𝗆𝖺 : ${NamaOwner}
+   ├❍ Owner Number : wa.me/${NomorOwner}
+   ├❖ Prefix : [ Multi ]
+   ╰─────────────────────╯
+
 Jika Button Tidak Muncul Ketik .allmenu`
 menu =` Itsuki ゑ`
 gbutsan = [
