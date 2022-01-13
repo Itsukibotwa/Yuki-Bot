@@ -2888,13 +2888,7 @@ break
                               "description": 'CLICK HERE FOR BUY',
                               "rowId": ""
                             
-                           },
-                              {
-                              "title": "JASA INSTALL BOT HEROKU",
-                              "description": 'CREATE A BOT',
-                              "rowId": ""
-                            
-                           },
+                           }, 
                            {
                               "title": "OWNER BOT",
                               "description": 'OWNER BOT',
@@ -2928,7 +2922,7 @@ case 'jasasewa':
        ini_txt += `~${get_result.quote}`
        
        menu = ` 𝗢𝗣𝗘𝗡 𝗦𝗘𝗪𝗔𝗕𝗢𝗧
- -ＫｕｒｒＸｄ-
+ -R a d i t-
 
 ＦＩＴＵＲ:
 ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ:500+
@@ -3004,7 +2998,7 @@ case 'jasa':
        ini_txt += `~${get_result.quote}`
        
        menu = ` 𝙅𝘼𝙎𝘼 𝙄𝙉𝙎𝙏𝘼𝙇𝙇 𝘽𝙊𝙏
- -ＫｕｒｒＸｄ-
+ -Ｋｕｒ-
 
 *KurrXd Menyediakan Jasa Install Bot*
 _platform heroku_
