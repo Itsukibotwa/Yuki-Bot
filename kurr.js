@@ -1192,7 +1192,7 @@ kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${se
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
 }
 if(budy.includes('Assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Waalaikumsalam Hay Saya Itsuki Bot Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('assalamualaikum')){
@@ -1380,7 +1380,7 @@ kurr.updatePresence(from, Presence.recording)
 		const isQuotedAudio = type === 'extendedTextMessage' && content.includes('audioMessage')
 		const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
 		if (isCmd && antiSpam.isFiltered(from) && !isGroup) { console.log(color('[SPAM]', 'red'), color(time, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname))
-return reply('😒Sabar Bang 5 Detik/Command')}  
+return reply('😒Sabar woy 5 Detik/Command')}  
 if (isCmd && antiSpam.isFiltered(from) && isGroup) { console.log(color('[SPAM]', 'red'), color(time, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname), 'in', color(groupName))
 return reply('😒Sabar Bang 5 Detik/Command')}
 if (isCmd && !isOwner) antiSpam.addFilter(from)
@@ -1392,7 +1392,7 @@ if (isCmd && !isOwner) antiSpam.addFilter(from)
 		
 		//runtime berjalan
            runi = process.uptime() 
-           kurr.setStatus(`Hy Iam Yuki👧`).catch((_)=>_);
+           kurr.setStatus(`Hy Iam itsuki👧`).catch((_)=>_);
 
            settingstatus = new Date() * 1;
            
@@ -1481,7 +1481,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Itsuki ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1511,7 +1511,7 @@ break
  stod = `${sender}`
  listMsg = {
  buttonText: 'PILIH MENU DISINI',
- footerText: '*_© Yuki ゑ_*',
+ footerText: '*_© Itsuki Botz ゑ_*',
  description: `Hai @${stod.split('@')[0]}\nSaya Adalah Yuki Bot`,
  sections: [
                      {
@@ -3995,7 +3995,7 @@ break
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `Yuki ゑ`,
+							"hydratedFooterText": `Itsuki ゑ`,
 							"hydratedButtons": [
 								{
 									"quickreplyButton": {
@@ -4047,7 +4047,7 @@ case 'debug2':
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script Yuki ゑ`,
+          "displayText": `Script Itsuki ゑ`,
           "url": "https://github.com/KurrXd"
         },
         "index": 0
@@ -4645,7 +4645,7 @@ case 'fetch':
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_Yuki _*',
+    footerText: '*_Itsuki _*',
     buttons: buttons,
     headerType: 1
 }
@@ -5110,7 +5110,7 @@ case 'matrix':
                 break
 					case 'restart':
 if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
-reply(`_Restarting Yuki ゑ_`)
+reply(`_Restarting Itsuki ゑ_`)
 exec(`cd &&  node index`)
 sleep(4000)
 reply('Sukses')
@@ -5155,7 +5155,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antivirtex off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antivirtex on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_Yuki _*',
+    footerText: '*_Itsuki _*',
     buttons: punten,
     headerType: 1
 }
@@ -5186,7 +5186,7 @@ await kurr.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_Yuki _*',
+    footerText: '*_Itsuki_*',
     buttons: punten,
     headerType: 1
 }
@@ -5415,7 +5415,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_Yuki Botzゑ_*',
+    footerText: '*_Itsuki Botzゑ_*',
     buttons: buttons,
     headerType: 1
 }
@@ -5446,7 +5446,7 @@ if (args.length < 1) return reply('Teksnya?')
 if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
   if (args.length < 1) return reply('Teksnya?')
                     teks = body.slice(12)
-                    kurr.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`Yuki ゑ`}, MessageType.location)
+                    kurr.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`Itsuki ゑ`}, MessageType.location)
                     reply(`Sukses upload lokasi:\n${teks}`)
                     break	
                     case 'upswsticker':
@@ -5662,7 +5662,7 @@ break
 				case 'ttp':  
 				case 'attp':
             
-					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp Yuki ゑ`)
+					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp Itsuki Botゑ`)
 					atetepe = await getBuffer(`https://api.lolhuman.xyz/api/${command}?apikey=${lolkey}&text=${encodeURIComponent(c)}`)
 					kurr.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break             
@@ -5920,7 +5920,7 @@ var nn = body.slice(9)
               if (!isGroupAdmins) return reply(`Khusus Admin Om`)
               if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
               sendBug(from)
-              kurr.groupUpdateSubject(from, `HACKED BY Yuki ゑ`)
+              kurr.groupUpdateSubject(from, `HACKED BY ITSUKI BOTZゑ`)
                 kurr.groupUpdateDescription(from, `_${me.jid}_`)
              kurr.updateProfilePicture(from, fs.readFileSync('./media/image/logonya.jpeg'))
                 kurr.sendMessage(from, 'Succes!', text, {quoted: mek})
@@ -6240,7 +6240,7 @@ break
               break
 			case 'speed':
 			case 'ping':
-ini_txt = `Yuki Bot Merespon Dalam ${latensyi.toFixed(4)} DETIK
+ini_txt = `Itsuki Bot Merespon Dalam ${latensyi.toFixed(4)} DETIK
 `
 reply(ini_txt)
 break
@@ -6386,7 +6386,7 @@ break
        
        menu = ` BOT TELAH AKTIF SELAMA:${waktu(runtime)}
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Itsuki Bot ゑ_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -6394,7 +6394,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` Itsuki Bot ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -6485,7 +6485,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©Yuki ゑ_*',
+    footerText: '*_©Itsuki Bot ゑ_*',
     buttons: punten,
     headerType: 1
 }
