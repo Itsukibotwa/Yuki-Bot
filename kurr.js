@@ -1472,7 +1472,7 @@ Silahkan Pilih Untuk Menampilkan Menu Bot
  `
 sendButLocation(from, `${menu}`, "Bot Masih Dalam proses perkembangan, jika menu/filtur eror atau tidak muncul mohon maklumi\n Jika button tidak muncul ketik .allmenu\n\n\n Made With By Itsuki Bot", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1}
 ], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
@@ -3917,7 +3917,7 @@ await kurr.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/mp4',
 break
 case 'script':
 case 'sc':
-reply(`SC INI:\nhttps://github.com/KurrXd/Yuki-Bot\nSC KHUSUS JUALAN:\nhttps://github.com/KurrXd/Store-Botz\nMONGGO DIPAKAI`)
+reply(`Mau Ngapain om?\nMau Minta script?\nDi Yt Banyak Om\nKalo Pake SC yt jangan lupa kasih nama creator nya, mohon hargai, udah lelah buat lu malah ngaku ngaku buatan lu`)
 break
 
 
