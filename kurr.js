@@ -3966,8 +3966,7 @@ sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:store1,
 break
         case 'dana':
 menu = `NO DANA:
-0812-2067-0449
-A/N T*****i   
+0857-9985-0518
 LALU KLIK TOMBOL DI BAWAH 
 DAN KIRIM BUKTI TF KE KONTAK TERSEBUT
  `
@@ -3975,8 +3974,8 @@ sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:dana,na
 break
 case 'gopay':
 menu = `NO GOPAY:
-0822-9889-1772
-A/N KurrXd-STORE
+0857-9985-0519
+A/N n**
 LALU KLIK TOMBOL DI BAWAH 
 DAN KIRIM BUKTI TF KE KONTAK TERSEBUT
  `
