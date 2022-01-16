@@ -1438,6 +1438,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
      reply(ini_txt)
      break
 case 'menu':
+case 'help':
         	
         if(menusimpel == false){               
                 const timestampi = speed();
@@ -1525,12 +1526,25 @@ break
      case 'allmenu':
  stod = `${sender}`
  listMsg = {
- buttonText: 'PILIH MENU DISINI',
+ buttonText: 'select menu here',
  footerText: '*_© Itsuki Botz ゑ_*',
- description: `Hai @${stod.split('@')[0]}\nSaya Adalah ITSUKI Bot`,
+ description: `Hai @${stod.split('@')[0]}\nSaya Adalah ITSUKI Bot
+ ╭◪ BOT INFO
+
+   ├❖ Name bot : ${NamaBot}
+
+   ├❍ Nomor bot : 0858690020467
+
+   ├❖ Owner bot : 𝖭𝖺𝗆𝖺 : ${NamaOwner}
+
+   ├❍ Owner Number : wa.me/${NomorOwner}
+
+   ├❖ Prefix : [ Multi ]
+
+   ╰─────────────────────╯`,
  sections: [
                      {
-                      "title": `----PILIH COMMAND DIBAWAH----`,
+                      "title": `----CHOOSE THE COMMAND BELOW----`,
  rows: [
                           {
                               "title": "INFO BOT",
